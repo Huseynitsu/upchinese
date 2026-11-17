@@ -1,0 +1,10 @@
+---
+description: Always deploy app changes to Vercel production
+alwaysApply: true
+---
+
+# Deploy to Vercel
+
+After finishing user-requested code or UI changes, deploy to Vercel production with `npx vercel deploy --prod --yes` from the project root. Do not wait to be asked.
+
+There is no GitHub remote; production is a CLI file upload (project `upchinese`, alias `https://upchinese.vercel.app`). Do not create a git commit unless the user asks.
